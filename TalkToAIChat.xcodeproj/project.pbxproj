@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D120319F2E4DA6A500D18855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12031862E4DA6A200D18855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D120318D2E4DA6A200D18855;
+			remoteInfo = TalkToAIChat;
+		};
+		D12031A92E4DA6A500D18855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12031862E4DA6A200D18855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D120318D2E4DA6A200D18855;
+			remoteInfo = TalkToAIChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D120318E2E4DA6A200D18855 /* TalkToAIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToAIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D120319E2E4DA6A500D18855 /* TalkToAIChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToAIChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12031A82E4DA6A500D18855 /* TalkToAIChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToAIChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D12031902E4DA6A200D18855 /* TalkToAIChat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalkToAIChat;
+			sourceTree = "<group>";
+		};
+		D12031A12E4DA6A500D18855 /* TalkToAIChatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalkToAIChatTests;
+			sourceTree = "<group>";
+		};
+		D12031AB2E4DA6A500D18855 /* TalkToAIChatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalkToAIChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D120318B2E4DA6A200D18855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D120319B2E4DA6A500D18855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12031A52E4DA6A500D18855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12031852E4DA6A200D18855 = {
+			isa = PBXGroup;
+			children = (
+				D12031902E4DA6A200D18855 /* TalkToAIChat */,
+				D12031A12E4DA6A500D18855 /* TalkToAIChatTests */,
+				D12031AB2E4DA6A500D18855 /* TalkToAIChatUITests */,
+				D120318F2E4DA6A200D18855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D120318F2E4DA6A200D18855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D120318E2E4DA6A200D18855 /* TalkToAIChat.app */,
+				D120319E2E4DA6A500D18855 /* TalkToAIChatTests.xctest */,
+				D12031A82E4DA6A500D18855 /* TalkToAIChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D120318D2E4DA6A200D18855 /* TalkToAIChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12031B22E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChat" */;
+			buildPhases = (
+				D120318A2E4DA6A200D18855 /* Sources */,
+				D120318B2E4DA6A200D18855 /* Frameworks */,
+				D120318C2E4DA6A200D18855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D12031902E4DA6A200D18855 /* TalkToAIChat */,
+			);
+			name = TalkToAIChat;
+			packageProductDependencies = (
+			);
+			productName = TalkToAIChat;
+			productReference = D120318E2E4DA6A200D18855 /* TalkToAIChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D120319D2E4DA6A500D18855 /* TalkToAIChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12031B52E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChatTests" */;
+			buildPhases = (
+				D120319A2E4DA6A500D18855 /* Sources */,
+				D120319B2E4DA6A500D18855 /* Frameworks */,
+				D120319C2E4DA6A500D18855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12031A02E4DA6A500D18855 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D12031A12E4DA6A500D18855 /* TalkToAIChatTests */,
+			);
+			name = TalkToAIChatTests;
+			packageProductDependencies = (
+			);
+			productName = TalkToAIChatTests;
+			productReference = D120319E2E4DA6A500D18855 /* TalkToAIChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12031A72E4DA6A500D18855 /* TalkToAIChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12031B82E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChatUITests" */;
+			buildPhases = (
+				D12031A42E4DA6A500D18855 /* Sources */,
+				D12031A52E4DA6A500D18855 /* Frameworks */,
+				D12031A62E4DA6A500D18855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12031AA2E4DA6A500D18855 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D12031AB2E4DA6A500D18855 /* TalkToAIChatUITests */,
+			);
+			name = TalkToAIChatUITests;
+			packageProductDependencies = (
+			);
+			productName = TalkToAIChatUITests;
+			productReference = D12031A82E4DA6A500D18855 /* TalkToAIChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12031862E4DA6A200D18855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D120318D2E4DA6A200D18855 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D120319D2E4DA6A500D18855 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D120318D2E4DA6A200D18855;
+					};
+					D12031A72E4DA6A500D18855 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D120318D2E4DA6A200D18855;
+					};
+				};
+			};
+			buildConfigurationList = D12031892E4DA6A200D18855 /* Build configuration list for PBXProject "TalkToAIChat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12031852E4DA6A200D18855;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D120318F2E4DA6A200D18855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D120318D2E4DA6A200D18855 /* TalkToAIChat */,
+				D120319D2E4DA6A500D18855 /* TalkToAIChatTests */,
+				D12031A72E4DA6A500D18855 /* TalkToAIChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D120318C2E4DA6A200D18855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D120319C2E4DA6A500D18855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12031A62E4DA6A500D18855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D120318A2E4DA6A200D18855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D120319A2E4DA6A500D18855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12031A42E4DA6A500D18855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12031A02E4DA6A500D18855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D120318D2E4DA6A200D18855 /* TalkToAIChat */;
+			targetProxy = D120319F2E4DA6A500D18855 /* PBXContainerItemProxy */;
+		};
+		D12031AA2E4DA6A500D18855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D120318D2E4DA6A200D18855 /* TalkToAIChat */;
+			targetProxy = D12031A92E4DA6A500D18855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D12031B02E4DA6A500D18855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12031B12E4DA6A500D18855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12031B32E4DA6A500D18855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToAIChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12031B42E4DA6A500D18855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToAIChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12031B62E4DA6A500D18855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToAIChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkToAIChat";
+			};
+			name = Debug;
+		};
+		D12031B72E4DA6A500D18855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToAIChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkToAIChat";
+			};
+			name = Release;
+		};
+		D12031B92E4DA6A500D18855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToAIChat;
+			};
+			name = Debug;
+		};
+		D12031BA2E4DA6A500D18855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitryvolkov.TalkToAIChat.TalkToAIChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToAIChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12031892E4DA6A200D18855 /* Build configuration list for PBXProject "TalkToAIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12031B02E4DA6A500D18855 /* Debug */,
+				D12031B12E4DA6A500D18855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12031B22E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12031B32E4DA6A500D18855 /* Debug */,
+				D12031B42E4DA6A500D18855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12031B52E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12031B62E4DA6A500D18855 /* Debug */,
+				D12031B72E4DA6A500D18855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12031B82E4DA6A500D18855 /* Build configuration list for PBXNativeTarget "TalkToAIChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12031B92E4DA6A500D18855 /* Debug */,
+				D12031BA2E4DA6A500D18855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12031862E4DA6A200D18855 /* Project object */;
+}
