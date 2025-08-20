@@ -14,20 +14,37 @@ struct WelcomeView: View {
     var body: some View {
         NavigationStack {
             ImageLoaderView(urlString: imageName)
-                .ignoresSafeArea()
-            
-            VStack {
-                Text("AI Chat")
+                                .ignoresSafeArea()
+                            
+                            titleSection
+                                .padding(.top, 24)
+                            
+                            ctaButtons
+                                .padding(16)
+                            
+                            policyLinks
+        
+        }
+    }
+    
+    private var titleSection: some View {
+            VStack(spacing: 8) {
+                Text("AI Chat 🤙")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
+                
+                Text("Real chat with AI")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
-            .padding(.top, 24)
-            
-            VStack {
+        }
+        
+        private var ctaButtons: some View {
+            VStack(spacing: 8) {
                 NavigationLink {
                     OnboardingCompletedView()
                 } label: {
-                    Text("Get started")
+                    Text("Get Started")
                         .callToActionButton()
                 }
                 
@@ -40,21 +57,21 @@ struct WelcomeView: View {
                         
                     }
             }
-            .padding(16)
-            
+        }
+        
+        private var policyLinks: some View {
             HStack(spacing: 8) {
-                Link(destination: URL(string: Constants.privacyPolicyUrl)!) {
+                Link(destination: URL(string: Constants.termsOfUseUrl)!) {
                     Text("Terms of Service")
                 }
                 Circle()
                     .fill(.accent)
                     .frame(width: 4, height: 4)
-                Link(destination: URL(string: Constants.termsOfUseUrl)!) {
+                Link(destination: URL(string: Constants.privacyPolicyUrl)!) {
                     Text("Privacy Policy")
                 }
             }
         }
-    }
 }
 
 #Preview {
