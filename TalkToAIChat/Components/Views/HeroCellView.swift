@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct HeroCellView: View {
     
     var title: String? = "This is some title"
@@ -74,4 +72,3 @@ struct HeroCellView: View {
         .frame(maxWidth: .infinity)
     }
 }
-
