@@ -147,3 +147,4 @@ fileprivate extension View {
     SettingsView()
         .environment(AppState())
 }
+
