@@ -49,16 +49,7 @@ struct ChatView: View {
     private var scrollViewSection: some View {
         ScrollView {
             LazyVStack(spacing: 24) {
-                ForEach(chatMessages) { message in
-                    let isCurrentUser = message.authorId == currentUser?.userId
-                    ChatBubbleViewBuilder(
-                        message: message,
-                        isCurrentUser: isCurrentUser,
-                        imageName: isCurrentUser ? nil : avatar?.profileImageName,
-                        onImagePressed: onAvatarImagePressed
-                    )
-                    .id(message.id)
-                }
+                chatMessageList
             }
             .frame(maxWidth: .infinity)
             .padding(8)
@@ -68,6 +59,35 @@ struct ChatView: View {
         .scrollPosition(id: $scrollPosition, anchor: .center)
         .animation(.default, value: chatMessages.count)
         .animation(.default, value: scrollPosition)
+    }
+
+    private var chatMessageList: some View {
+        ForEach(chatMessages) { message in
+            ChatMessageRow(
+                message: message,
+                currentUser: currentUser,
+                avatar: avatar,
+                onAvatarImagePressed: onAvatarImagePressed
+            )
+            .id(message.id)
+        }
+    }
+
+    private struct ChatMessageRow: View {
+        let message: ChatMessageModel
+        let currentUser: UserModel?
+        let avatar: AvatarModel?
+        let onAvatarImagePressed: () -> Void
+
+        var body: some View {
+            let isCurrentUser = message.authorId == currentUser?.userId
+            
+            ChatBubbleViewBuilder(
+                message: message,
+                isCurrentUser: isCurrentUser,
+                imageName: isCurrentUser ? nil : avatar?.profileImageName
+            )
+        }
     }
     
     private var textFieldSection: some View {
